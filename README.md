@@ -1,41 +1,25 @@
-# Simple-Food-Order-System-in-Python
-This Python script simulates a basic food ordering system. Users can order a pizza (small, medium, or large) and add toppings like pepperoni and extra cheese. Additionally, users can order burgers (small or big), fries, and cold drinks. The program calculates the total bill based on the choices and sizes selected. 
+# Food-and-Shopping-Apps
 
-# Simple Food Order System in Python
+This repository contains two beginner-friendly projects written in Python and C:
 
-This Python program lets the user order pizza with optional toppings and additional items like burgers, fries, and cold drinks. It calculates the total bill based on user selections.
+## Projects
 
-## Features
+### 1. Pizza Ordering System (Python)
+- Order pizzas of different sizes.
+- Add toppings like pepperoni and extra cheese.
+- Also order burgers (small/big), fries, and cold drinks.
+- Calculates total bill interactively.
 
-- Choose pizza size: Small, Medium, or Large.
-- Add toppings: Pepperoni and Extra Cheese.
-- Order burgers with size options: Small or Big.
-- Add fries and cold drinks.
-- Displays the detailed cost of each item and the total bill.
+### 2. Shopping App (C)
+- Browse a list of clothing and accessory items.
+- Place orders by entering item IDs and quantities.
+- Displays subtotal and final bill.
 
-## How to run
+## Repository Structure
 
-1. Make sure you have Python installed (version 3.x recommended).
-2. Download or clone this repository.
-3. Run the script:
+- `/pizza` — Python pizza ordering system
+- `/shopping_app` — C shopping application
 
-```bash
-python food_order.py
-Follow the on-screen prompts to place your order.
+---
 
-EXAMPLE:
-Enter which pizza you want (s/m/l): m
-Your medium pizza is ₹200
-Do you want to add Pepperoni? (Y/N): y
-Cost of Pepperoni is ₹50
-Do you want to add Extra Cheese? (Y/N): n
-Do you want a burger? (Y/N): y
-Which burger size do you want? (s = small, b = big): b
-Big burger added for ₹120
-Do you want fries? (Y/N): y
-Fries added for ₹50
-Do you want a cold drink? (Y/N): y
-Cold drink added for ₹40
-Your total bill is ₹ 460
-
-
+Feel free to explore each project folder for source code and individual README files.
